@@ -12,8 +12,8 @@
     <div class="phone">
         <div class="content"><iframe src="mobile/index.html" frameborder="0"></iframe></div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>     <!-- modernizr CDN -->
-    <script>
+    <script src="modernizr-custom.js"></script>     <!-- modernizr CDN -->
+    <script>    //modernizr download touchevent
         if (Modernizr.touchevents) {
             // supported
             location.href='./mobile/index.html';
